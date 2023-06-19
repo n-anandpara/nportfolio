@@ -17,6 +17,7 @@ import {
   ibsc,
   spa,
   graphql,
+  airbnbClone
 } from "../assets";
 
 const navLinks = [
@@ -31,7 +32,7 @@ const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
+  },  
 ];
 
 const technologies = [
@@ -83,29 +84,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer Intern",
-    company_name: "Computovision",
-    icon: computovision,
+    title: "Senior Software Engineer",
+    company_name: "Gupshup",
+    icon: gupshup,
     iconBg: "#FFF",
-    date: "May 2018 - July 2021",
+    date: "March 2023 - Present",
     points: [
-      "Collected requirements from internal teams to design impactful graphics.",
-      "Designed and built user-friendly interfaces for clients using WordPress and Joomla.",
-      "Enhanced clients' websites by working on the CMS backend, modifying themes, and implementing SEO strategies."
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company_name: "Codeparva",
-    icon: codeparva,
-    iconBg: "#FFF",
-    date: "Sep 2018 - Jan 2020",
-    points: [
-      "Integrated REST APIs and delivered the deposit and withdrawal UI feature for the self-storage service using React, Redux, Material UI, Formik, and React-virtualized.",
-      "Designed and created over 30 responsive landing pages for the company and clients using HTML, CSS, and Javascript.",
-      "Streamlined website development by creating templates using Angular 6, reducing developers' time by 70%.",
-      "Developed reusable and readable components using React and upheld best coding practices and documentation to shorten onboarding time for new team members.",
-      "Conducted comprehensive unit testing to ensure high-quality product delivery."
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -121,22 +109,57 @@ const experiences = [
       "Actively solved bugs, wrote unit tests, and reviewed code to ensure high-quality product delivery."
     ],
   },
-  {
-    title: "Senior Software Engineer",
-    company_name: "Gupshup",
-    icon: gupshup,
+    {
+    title: "Software Engineer",
+    company_name: "Codeparva",
+    icon: codeparva,
     iconBg: "#FFF",
-    date: "March 2023 - Present",
+    date: "Sep 2018 - Jan 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Integrated REST APIs and delivered the deposit and withdrawal UI feature for the self-storage service using React, Redux, Material UI, Formik, and React-virtualized.",
+      "Designed and created over 30 responsive landing pages for the company and clients using HTML, CSS, and Javascript.",
+      "Streamlined website development by creating templates using Angular 6, reducing developers' time by 70%.",
+      "Developed reusable and readable components using React and upheld best coding practices and documentation to shorten onboarding time for new team members.",
+      "Conducted comprehensive unit testing to ensure high-quality product delivery."
+    ],
+  },
+  {
+    title: "Web Developer Intern",
+    company_name: "Computovision",
+    icon: computovision,
+    iconBg: "#FFF",
+    date: "May 2018 - July 2021",
+    points: [
+      "Collected requirements from internal teams to design impactful graphics.",
+      "Designed and built user-friendly interfaces for clients using WordPress and Joomla.",
+      "Enhanced clients' websites by working on the CMS backend, modifying themes, and implementing SEO strategies."
     ],
   },
 ];
 
 const projects = [
+  {
+    name: "Airbnb Clone",
+    description:
+      "It is clone of airbnb where a service that lets property owners rent out their spaces to travelers looking for a place to stay. Travelers can rent a space for multiple people to share, a shared space with private rooms, or the entire property for themselves.",
+    tags: [
+      {
+        name: "nextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: airbnbClone,
+    source_code_link: "https://github.com/n-anandpara/airbnb-clone",
+    site_link: "https://airbnb-clone-n.vercel.app/",
+  },
   {
     name: "Resort Search",
     description:
@@ -156,7 +179,8 @@ const projects = [
       },
     ],
     image: resortSearch,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/n-anandpara/beach-resort",
+    site_link: "https://reactjs-beach-resort-app.netlify.app/",
   },
   {
     name: "Single Page Business Site",
@@ -177,7 +201,8 @@ const projects = [
       },
     ],
     image: spa,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/n-anandpara/Business-demo-website",
+    site_link: "https://single-page-business.netlify.app/",
   },
   {
     name: "IBSC 2017",
@@ -198,7 +223,8 @@ const projects = [
       },
     ],
     image: ibsc,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/n-anandpara/IBSC17",
+    site_link: "https://ibsc17.netlify.app/",
   },
 ];
 

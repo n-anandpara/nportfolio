@@ -29,6 +29,7 @@ import gupshup from "./company/gupshup.png";
 import resortSearch from "./resortSearch.png";
 import spa from "./spa.png";
 import ibsc from "./ibsc.png";
+import airbnbClone from "./airbnb-clone.png";
 
 export {
   backend,
@@ -58,5 +59,6 @@ export {
   resortSearch,
   spa,
   ibsc,
-  logoN
+  logoN,
+  airbnbClone
 };
