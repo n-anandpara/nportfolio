@@ -24,8 +24,6 @@ const About = () => {
           With 5+ years of work experience under my belt,
           I have honed my skills in developing responsive and 
           dynamic interfaces that deliver delightful customer experiences.
-        </p>
-        <p className="mt-2">
           My commitment to creating user-friendly designs and 
           intuitive interfaces has earned me a reputation for 
           delivering outstanding results. I take great pride 

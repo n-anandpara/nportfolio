@@ -95,6 +95,7 @@ const experiences = [
     icon: gupshup,
     iconBg: "#FFF",
     date: "March 2023 - Present",
+    company_link: "https://www.gupshup.io/",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -108,6 +109,7 @@ const experiences = [
     icon: khoros,
     iconBg: "#FFF",
     date: "Jan 2020 - Sep 2022",
+    company_link: "https://khoros.com/",
     points: [
       "Improved the UI subsystem of the product using React, Typescript, and NextJs, resulting in a more user-friendly interface.",
       "Designed and implemented a data schema and API Layer using GraphQL, improving server-to-client interactions and overall performance.",
@@ -121,6 +123,7 @@ const experiences = [
     icon: codeparva,
     iconBg: "#FFF",
     date: "Sep 2018 - Jan 2020",
+    company_link: "https://codeparva.com/",
     points: [
       "Integrated REST APIs and delivered the deposit and withdrawal UI feature for the self-storage service using React, Redux, Material UI, Formik, and React-virtualized.",
       "Designed and created over 30 responsive landing pages for the company and clients using HTML, CSS, and Javascript.",
@@ -135,6 +138,7 @@ const experiences = [
     icon: computovision,
     iconBg: "#FFF",
     date: "May 2018 - July 2021",
+    company_link: "https://www.computovision.com/",
     points: [
       "Collected requirements from internal teams to design impactful graphics.",
       "Designed and built user-friendly interfaces for clients using WordPress and Joomla.",
