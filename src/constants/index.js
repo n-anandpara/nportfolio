@@ -17,7 +17,9 @@ import {
   ibsc,
   spa,
   graphql,
-  airbnbClone
+  airbnbClone,
+  github_logo,
+  linkedIn_logo
 } from "../assets";
 
 const navLinks = [
@@ -28,6 +30,10 @@ const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -228,4 +234,18 @@ const projects = [
   },
 ];
 
-export { navLinks, technologies, experiences, projects };
+
+const footer = [
+  {
+    name: "linkedIn",
+    logo: linkedIn_logo,
+    link: "https://www.linkedin.com/in/ncanandpara/"
+  },
+  {
+    name: "github",
+    logo: github_logo,
+    link: "https://github.com/n-anandpara"
+  }
+];
+
+export { navLinks, technologies, experiences, projects, footer };

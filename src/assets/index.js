@@ -31,6 +31,10 @@ import spa from "./spa.png";
 import ibsc from "./ibsc.png";
 import airbnbClone from "./airbnb-clone.png";
 
+import linkedIn_logo from "./linkedIn_logo.png";
+import github_logo from "./github_logo.png";
+
+
 export {
   backend,
   creator,
@@ -60,5 +64,7 @@ export {
   spa,
   ibsc,
   logoN,
-  airbnbClone
+  airbnbClone,
+  linkedIn_logo,
+  github_logo
 };
