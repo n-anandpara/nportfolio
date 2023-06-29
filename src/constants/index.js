@@ -149,6 +149,7 @@ const experiences = [
 
 const projects = [
   {
+    id: "airbnb-clone",
     name: "Airbnb Clone",
     description:
       "It is clone of airbnb where a service that lets property owners rent out their spaces to travelers looking for a place to stay. Travelers can rent a space for multiple people to share, a shared space with private rooms, or the entire property for themselves.",
@@ -171,6 +172,7 @@ const projects = [
     site_link: "https://airbnb-clone-n.vercel.app/",
   },
   {
+    id: "resort-search",
     name: "Resort Search",
     description:
       "Crafted using React JS, HTML CSS. Implementation of a very common feature in ECommerce and Hospitality websites - filtering items as per the arguments passed.",
@@ -193,6 +195,7 @@ const projects = [
     site_link: "https://reactjs-beach-resort-app.netlify.app/",
   },
   {
+    id: "single-page-business",
     name: "Single Page Business Site",
     description:
       "I like the UI of one the site so mimic single page business website which is mainly focused on a business venture.",
@@ -215,6 +218,7 @@ const projects = [
     site_link: "https://single-page-business.netlify.app/",
   },
   {
+    id: "ibsc-2017",
     name: "IBSC 2017",
     description:
       "A website for IEEE Bombay Sectional Congress Conference held on 27th - 29th January. Technologies used includes HTML, CSS, Bootstrap, JavaScript, jQuery.",

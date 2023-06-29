@@ -6,6 +6,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -14,7 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
-  site_link
+  id,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -43,7 +44,11 @@ const ProjectCard = ({
         </div>
         <div className="flex flex-col justify-between relative text-center">
           <div className="mt-5">
-            <h3 className="text-white font-bold text-[24px] cursor-pointer" onClick={() => window.open(site_link, "_blank")}>{name}</h3>          
+            <Link to={"/project/" + id}>
+              <h3 className="text-white font-bold text-[24px] cursor-pointer">
+                {name}
+              </h3>
+            </Link>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
           </div>
           <div className="mt-4 flex flex-wrap gap-2 justify-center">
